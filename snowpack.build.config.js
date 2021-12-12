@@ -1,7 +1,7 @@
 module.exports = {
 	"mount": {
 		"public": "/",
-		"src": "/_dist_"
+		"src": "/"
 	},
 	"plugins": [
 		[
@@ -19,5 +19,8 @@ module.exports = {
 		"sourcemap": "external",
 		"splitting": true,
 		"treeshake": true
+	},
+	"buildOptions": {
+		"out": "docs"
 	}
 }
