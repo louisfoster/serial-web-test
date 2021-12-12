@@ -66,3 +66,29 @@ button:active
 {
 	margin: 1rem;
 }
+
+.drohen
+{
+	display: flex;
+	position: fixed;
+	right: 0;
+	background: black;
+	color: white;
+	text-decoration: none;
+	padding: 0.5rem 0.75rem 0.5rem 0.5rem;
+	font-size: 1.1rem;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	align-items: center;
+	border-bottom-left-radius: 0.5rem;
+}
+
+.drohen img
+{
+	min-width: 50px;
+	height: 100%;
+	image-rendering: pixelated;
+	display: block;
+	margin-right: 0.5rem;
+	flex: 1;
+}
