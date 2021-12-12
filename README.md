@@ -3,6 +3,24 @@
 A simple project demonstrating a [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) [MicroPython](https://micropython.org/) program communicating via [USB](https://en.wikipedia.org/wiki/USB) to the [Chrome web browser](https://www.google.com/chrome/) using the [Web Serial API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API).
 
 
+## [Live Demo](https://drohen.github.io/serial-web-test/) ((d[-_-]b))
+
+**NOTE**: [check the web serial compatibility table](https://developer.mozilla.org/en-US/docs/Web/API/Serial#browser_compatibility) for what browser version you will need.
+
+Refer to the [try it out](#try-it-out) information below to get started.
+
+## Contents
+
+- [What is does](#what-is-does)
+- [Try it out](#try-it-out)
+  * [Pico](#pico)
+  * [Web Application](#web-application)
+- [What is the purpose of this project?](#what-is-the-purpose-of-this-project)
+- [Project inspirations](#project-inspirations)
+- [Project design](#project-design)
+- [Author](#author)
+
+
 ## What is does
 
 The Pico's program listens on [2 of its built-in](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf) [ADC](https://en.wikipedia.org/wiki/Analog-to-digital_converter) inputs for the values of connected [variable resistors, such as potentiometers](https://en.wikipedia.org/wiki/Potentiometer).
@@ -34,6 +52,8 @@ The web application transforms these values into a frequency range that is assig
 - Unplug and re-connect the Pico via USB.
 
 ### Web Application
+
+Don't want to clone? Try the [demo](https://drohen.github.io/serial-web-test/) instead.
 
 - Install a browser [that supports Web Serial API](https://developer.mozilla.org/en-US/docs/Web/API/Serial#browser_compatibility) and [the Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
 	- As of this project, only the latest versions of Chrome, Edge, and Opera are supported.
