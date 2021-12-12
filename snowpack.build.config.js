@@ -19,5 +19,8 @@ module.exports = {
 		"sourcemap": "external",
 		"splitting": true,
 		"treeshake": true
+	},
+	"buildOptions": {
+		"out": "docs"
 	}
 }
