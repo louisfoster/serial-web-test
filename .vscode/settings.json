@@ -1,0 +1,11 @@
+{
+	"editor.insertSpaces": false,
+	"editor.tabSize": 8,
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.wordWrap": "off",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	}
+}

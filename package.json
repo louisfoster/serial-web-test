@@ -1,0 +1,25 @@
+{
+  "name": "web-serial-api-input-test",
+  "description": "",
+  "version": "1.0.0",
+  "main": "build/_dist_/index.js",
+  "scripts": {
+    "dev": "snowpack dev --config snowpack.config.js",
+    "build": "snowpack build --config snowpack.build.config.js",
+    "start": "npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "DROHEN",
+  "license": "MIT",
+  "devDependencies": {
+    "@snowpack/plugin-run-script": "^2.3.0",
+    "@types/w3c-web-serial": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "bind-decorator": "^1.0.11",
+    "eslint": "^8.2.0",
+    "snowpack": "^3.8.8",
+    "typescript": "^4.4.4"
+  }
+}
